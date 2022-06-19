@@ -3,14 +3,64 @@
 * {
 	font-family: "Kanit", sans-serif;
 	text-decoration: none;
-	list-style: none;
 	color: black;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(187, 138, 146);
+	background-repeat: no-repeat;
+}
+
+h1 {
+	text-align: center;
+	border-bottom: 2px solid goldenrod;
+	margin: 3px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.recipes {
+	display: block;
+	margin: auto;
+	width: 70%;
+	border: 1px solid goldenrod;
+	padding: 5px;
 }
 
 a {
+	text-align: center;
 	transition: 0.3s;
 }
 
 a:hover {
 	color: goldenrod;
+}
+
+h2,
+p,
+ul,
+ol {
+	text-align: center;
+}
+
+h2 {
+	background: gold;
+}
+
+strong {
+	color: gold;
+}
+
+p {
+	display: block;
+	margin: auto;
+	width: 50%;
 }
