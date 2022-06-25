@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*
+.module {
+	padding: 1rem;
+	background: white;
+}
+
+.module h2 {
+	background: #90a4ae;
+	margin: -1rem -1rem 1rem -1rem;
+	padding: 1rem;
+}
+
+.module:last-child {
+	margin-bottom: 0;
+}
+
+body {
+	background: #ddd;
+	margin: 1rem;
+	padding: 1rem;
+	max-width: 400px;
+	margin: 2rem auto;
+	font-family: "Open Sans", sans-serif;
+}
+*/
+div {
+	padding: 30px;
+	text-align: center;
+	margin: 10px auto;
+	color: #eeeeee;
+}
+
+.introduction {
+	background-color: #548ca8;
+}
+
+.main-content {
+	background-color: #476072;
+}
+
+.contact-us {
+	background-color: #334257;
+}
